@@ -1,0 +1,8 @@
+//ok
+
+//Test des if
+{
+boolean a = true;
+int b = 2;
+if(!a) {print("non ok");} else if(a && b==3) {print("non ok");} else if (a && b==2) {print("ok");} else {print("non ok");}
+}

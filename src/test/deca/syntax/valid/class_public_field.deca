@@ -1,0 +1,15 @@
+//Description
+//    Vérifier la decl de class
+//
+//Résultats :
+//
+//
+
+class A{
+int a;
+}
+
+{
+A object = new A();
+print(object.a);
+}

@@ -1,0 +1,14 @@
+// 1
+// 0
+// 0.5
+// error
+
+#include "Math.decah"
+
+{
+    Math m = new Math();
+    println("cos(0) = ", m.cos(0));
+    println("cos(m.halfpi) = ", m.cos(m.halfpi));
+    println("cos(60°) = ", m.cos(60*m.pi/180));
+    println("out of domain ? (cos(50)", m.cos(50));
+}

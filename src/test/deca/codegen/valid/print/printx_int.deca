@@ -1,0 +1,8 @@
+// Description :
+// test printx sur un literal int
+// Resultat :
+// 3
+
+{
+printx(3);
+}

@@ -1,0 +1,7 @@
+//
+
+// Test d'un return vide dans le main
+
+{
+    return ;
+}

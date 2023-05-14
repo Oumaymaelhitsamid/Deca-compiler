@@ -1,0 +1,11 @@
+//Description
+//    Vérifier la decl de var
+//
+//Résultats :
+//    Erreur Syntaxique ligne 8
+//
+
+
+{
+int float = 3;
+}

@@ -1,0 +1,10 @@
+//Description
+//    Vérifier l'affectation d'un entier;
+//
+//Résultats :
+//    Erreur Lexicale/Syntaxique :
+//    Ligne 9 : Cet entier ne peut pas être codé en tant qu'entier signé 32 bits 
+
+{
+int a = 2147483648;
+}

@@ -1,0 +1,25 @@
+//Description :
+// Test d'une methode qui ne return pas forcement
+//
+// Resultats :
+// Pas de soucis
+
+
+class Premiere {
+
+  void random(int x) asm ("INST1
+  INST 2");
+
+}
+
+class Second extends Premiere{
+ void random(float x) asm ("INST1
+ INST2");
+}
+
+
+
+{
+Premiere prem = new Premiere();
+prem.random(3);
+}

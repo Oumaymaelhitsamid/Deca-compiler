@@ -1,0 +1,10 @@
+//Description
+//    Vérifier l'inclusion d'un fichier (lexicalement);
+//
+//Résultats :
+//    Erreur Lexicale:
+//    Ligne 9
+
+{
+float a = 0.0;
+}

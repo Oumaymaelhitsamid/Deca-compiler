@@ -1,0 +1,55 @@
+//[1.20000e+01, -4.00000e+00]
+//[-5.50000e+00, 6.70000e+00]
+//Sont-ils égaux ?:false[6.50000e+00, 2.70000e+00]
+
+
+//Objet point et methode affilié
+
+class Point{
+    protected float x;
+    protected float y;
+
+    float getX(){
+        return x;
+    }
+
+    float getY(){
+        return y;
+    }
+
+    void translate(float dx, float dy){
+        x = x+dx;
+        this.y = this.y + dy;
+    }
+
+    boolean equalsPoint(Point other){
+        if (other.x == this.x && other.y == this.y){
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+    void init(float x, float y){
+        this.x = x;
+        this.y = y;
+    }
+
+    void printPoint(){
+        print("[", this.x, ", ", this.y,"]");
+        println("");
+    }
+}
+
+{
+    Point A = new Point();
+    Point B = new Point();
+    A.init(12, -4);
+    B.init(-5.5, 6.7);
+    A.printPoint();
+    B.printPoint();
+    print("Sont-ils égaux ?:");
+    if (A.equalsPoint(B)){print("true");} else {print("false");}
+    A.translate(B.getX(), B.getY());
+    A.printPoint();
+}

@@ -1,0 +1,11 @@
+// 01234
+
+// On teste un très simple while
+
+{
+    int a = 0;
+    while (a < 5){
+        print(a) ;
+        a = a + 1;
+    }
+}

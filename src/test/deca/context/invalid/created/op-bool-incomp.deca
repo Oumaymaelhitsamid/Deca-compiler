@@ -1,0 +1,9 @@
+//Description :
+// Test d'une opération booléenne sur types incompatbles
+//
+// Resultats :
+// Erreur
+
+{
+    1 && false ;
+}

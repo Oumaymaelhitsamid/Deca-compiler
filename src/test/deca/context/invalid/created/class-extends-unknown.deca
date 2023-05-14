@@ -1,0 +1,12 @@
+//Description :
+// Test de extends sans définition de la super classe
+//
+// Resultats :
+// Erreur
+
+
+class Premiere extends A {
+
+}
+
+{}

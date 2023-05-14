@@ -1,0 +1,10 @@
+//Description
+//    Vérifier la decl de class
+//
+//Résultats :
+//    Erreur Syntaxique ligne 8
+//
+
+{
+class A{}
+}

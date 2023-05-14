@@ -1,0 +1,10 @@
+// Description :
+// Vérifier l'include;
+//
+// Resultats :
+// ok
+
+
+{
+int a = a % {};
+}

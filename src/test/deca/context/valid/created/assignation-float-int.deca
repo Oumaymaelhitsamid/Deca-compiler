@@ -1,0 +1,11 @@
+//Description :
+// Assignation d'un int dans un float
+//
+// Resultats :
+//
+
+
+{
+    float x;
+    x = 2;
+}

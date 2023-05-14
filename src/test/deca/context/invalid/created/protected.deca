@@ -1,0 +1,22 @@
+//Description :
+// Test d'appel de field protected
+// Resultats :
+// Erreur
+
+
+class Premiere {
+    protected int a;
+}
+
+class Seconde {
+    Premiere p = new Premiere();
+
+    void printA() {
+        print(this.p.a);
+    }
+}
+
+{
+    Seconde s = new Seconde();
+    s.printA();
+}

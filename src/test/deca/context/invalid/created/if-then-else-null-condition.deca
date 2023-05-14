@@ -1,0 +1,13 @@
+//Description :
+// Test d'un if then else avc une condition null
+//
+// Resultats :
+// Erreur
+
+{
+    if (null) {
+        print("Oui");
+    } else {
+        print("Non");
+    }
+}

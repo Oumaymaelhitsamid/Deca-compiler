@@ -1,0 +1,10 @@
+//Description :
+// Declaration d'une variable entière avec initialisation
+//
+// Resultats :
+//
+
+
+{
+    int x = 1;
+}

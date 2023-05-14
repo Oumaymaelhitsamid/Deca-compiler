@@ -1,0 +1,12 @@
+//Description
+//    Vérifier la decl de class
+//
+//Résultats :
+//    Erreur Syntaxique ligne 11
+//
+
+{
+int a = 3;
+a = 1 +2;
+float a = 4.O;
+}

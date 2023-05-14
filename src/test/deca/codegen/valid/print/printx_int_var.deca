@@ -1,0 +1,9 @@
+// Description :
+// test le print x sur une variable int 
+// Resultat :
+// 3
+
+{
+int a = 3;
+printx(a);
+}

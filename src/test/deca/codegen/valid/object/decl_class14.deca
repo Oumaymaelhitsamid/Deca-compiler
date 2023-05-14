@@ -1,0 +1,16 @@
+//
+
+//Decl method
+
+class A{
+protected int a;
+int b = 3;
+
+  int getX(){
+  int a = 3;
+  return a;
+  }
+
+  void setX(int a, float c){;}
+
+}

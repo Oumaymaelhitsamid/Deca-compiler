@@ -1,0 +1,30 @@
+//Description :
+// Test d'initialisation particulière
+//
+// Resultats :
+// Erreur
+
+class A {
+    int a = 3;
+
+    void printA() {
+        print("OUI");
+    }
+}
+
+class B extends A {
+    float a = 1;
+
+    void printA() {
+        print("NON");
+    }
+
+    void printB() {
+        print("OUI");
+    }
+}
+
+{
+    A objA = new B();
+    objA.printB();
+}

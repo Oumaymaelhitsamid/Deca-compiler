@@ -1,0 +1,10 @@
+//Description :
+// Test d'une double initialisation de même type
+//
+// Resultats :
+// Erreur
+
+{
+    int x = 1;
+    int x = 2;
+}

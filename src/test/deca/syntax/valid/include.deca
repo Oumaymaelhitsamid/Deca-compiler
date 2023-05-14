@@ -1,0 +1,9 @@
+// Description :
+// Vérifier l'include;
+//
+// Resultats :
+// ok
+
+#include"Math.decah"
+{
+}

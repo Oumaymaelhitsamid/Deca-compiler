@@ -1,0 +1,11 @@
+// 5.70000+e00
+
+// Conversion
+
+{
+    int a = 1;
+    float b = 2.5;
+    float c = 3.2;
+    b = a * b + c;
+    print(b);
+}

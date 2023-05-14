@@ -1,0 +1,11 @@
+//Description
+//    Vérifier la decl de class
+//
+//Résultats :
+//    Erreur Syntaxique ligne 11
+//
+
+{
+Test.appel();
+int a = 4;
+}

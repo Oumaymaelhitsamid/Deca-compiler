@@ -1,0 +1,9 @@
+//Description
+//    Vérifier le comportement du if/else
+//
+//Résultats :
+//   Ok
+//
+
+
+{while(a){if(true){} else if(false){;}}}

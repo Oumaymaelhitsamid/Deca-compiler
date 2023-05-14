@@ -1,0 +1,24 @@
+//Description :
+// Redef de methode
+//
+// Resultats :
+//
+
+
+class Premiere {
+    int x = 2;
+    protected float y = 3;
+
+    void blabla(float b, int a){
+    print(b);
+    }
+
+}
+
+class Second extends Premiere {
+
+  void blabla(float a){
+  print(a);
+  }
+
+}

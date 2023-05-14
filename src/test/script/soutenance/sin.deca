@@ -1,0 +1,14 @@
+// 0
+// 1
+// 0.5
+// error
+
+#include "Math.decah"
+
+{
+    Math m = new Math();
+    println("sin(0) = ", m.sin(0));
+    println("sin(m.halfpi) = ", m.sin(m.halfpi));
+    println("sin(30°) = ", m.sin(30*m.pi/180));
+    println("out of domain ? (sin(50)", m.sin(50));
+}

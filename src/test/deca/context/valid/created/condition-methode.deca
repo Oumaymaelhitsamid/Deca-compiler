@@ -1,0 +1,22 @@
+//Description :
+// Test d'une condition appel de méthode
+//
+// Resultats :
+//  oui
+
+
+class A {
+
+    boolean test(int a) {
+        return (a == 2);
+    }
+}
+
+{
+    A a = new A();
+    if (a.test(2)) {
+        println("oui");
+    } else {
+        println("non");
+    }
+}

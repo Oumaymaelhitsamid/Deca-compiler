@@ -1,0 +1,10 @@
+//Description :
+// Test du not unaire
+//
+// Resultats :
+//
+
+
+{
+    !true;
+}

@@ -1,0 +1,6 @@
+#include "Math.decah"
+
+{
+    Math m = new Math();
+    print(m.asin(-2.0));
+}

@@ -1,0 +1,26 @@
+//Description
+//    Vérifier le mélange des noms
+//
+//Résultats :
+//  ok
+//
+
+
+class IfThenElse{
+float ifthenelse = 4.0;
+boolean if_ = true;
+
+  float getIfThenElse(){
+   return ifthenelse;
+  }
+}
+
+
+
+{
+IfThenElse object_if = new IfThenElse();
+if(object_if.if_){
+print(object_if.getIfThenElse());
+}
+
+}

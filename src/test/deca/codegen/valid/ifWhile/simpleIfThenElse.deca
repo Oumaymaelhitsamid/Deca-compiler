@@ -1,0 +1,11 @@
+// 2 != 3
+
+// On teste le IfThenElse
+
+{
+    if (2 == 3){
+        print("2 == 3");
+    } else {
+        print("2 != 3");
+    }
+}

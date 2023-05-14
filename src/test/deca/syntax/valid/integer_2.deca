@@ -1,0 +1,9 @@
+// Description :
+// Vérifier l'affectation d'un entier;
+//
+// Resultats :
+// ok
+
+{
+int a = 2147483647;
+}

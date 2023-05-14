@@ -1,0 +1,12 @@
+// 0
+// 1
+// error
+
+#include "Math.decah"
+
+{
+    Math m = new Math();
+    println("asin(0) = ", m.asin(0));
+    println("asin(m.halfpi) = ", m.asin(m.halfpi));
+    println("out of domain ? (asin(2)", m.asin(2));
+}

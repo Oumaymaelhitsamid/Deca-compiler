@@ -1,0 +1,17 @@
+//Description
+//    Vérifier la decl d'asm method
+//
+//Résultats :
+//   Ok
+//
+
+class A{
+  void test() asm ("Bonjour
+  legal
+  France");
+}
+
+{
+A a = new A();
+a.test();
+}

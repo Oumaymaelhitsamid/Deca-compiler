@@ -1,0 +1,10 @@
+//Description :
+// Test d'un appel d'attribut
+//
+// Resultats :
+// Erreur
+
+{
+    int a = 3;
+    a.a;
+}

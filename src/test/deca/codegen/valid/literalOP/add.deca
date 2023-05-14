@@ -1,0 +1,9 @@
+// 493
+// 
+
+// teste l'addition d'immediats entiers positifs.
+
+{
+    print(2+2) ;
+    println(17+76) ;
+}

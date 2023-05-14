@@ -1,0 +1,28 @@
+//Description :
+// Redef de methode
+//
+// Resultats :
+// 
+
+
+class Premiere {
+    int x = 2;
+    protected float y = 3;
+
+    Premiere getObject(){
+    return this;
+    }
+
+}
+
+class Second extends Premiere {
+
+  void blabla(int a){
+  print(a);
+  }
+
+  Second getObject(){
+  return this;
+  }
+
+}

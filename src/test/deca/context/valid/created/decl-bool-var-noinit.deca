@@ -1,0 +1,10 @@
+//Description :
+// Declaration d'une variable boolean sans initialisation
+//
+// Resultats :
+//
+
+
+{
+    boolean x;
+}

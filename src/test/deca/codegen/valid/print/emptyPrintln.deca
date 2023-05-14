@@ -1,0 +1,8 @@
+// Description :
+// println vide 
+// Resultat :
+//
+
+{
+    println();
+}

@@ -1,0 +1,12 @@
+//Description :
+// Utilise une méthode non declarée
+//
+// Resultats :
+// Erreur
+
+
+
+
+{
+    abc();
+}

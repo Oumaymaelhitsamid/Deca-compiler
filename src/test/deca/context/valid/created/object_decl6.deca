@@ -1,0 +1,27 @@
+//Description :
+// Vérification de la déclaration de méthode
+//
+// Resultats :
+//
+
+
+class Test {
+
+    int x = 0;
+
+    void setX(int x){
+    this.x = x;
+    }
+
+    void affiche() {
+        print("Yo : ", this.x);
+    }
+}
+
+class SubTest{
+Test t = new Test();
+}
+
+{
+
+}

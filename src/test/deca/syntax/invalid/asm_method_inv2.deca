@@ -1,0 +1,10 @@
+//Description
+//    Vérifier la decl d'asm method
+//
+//Résultats :
+//   Ok
+//
+
+class A{
+  void test() asm ("efer);
+}

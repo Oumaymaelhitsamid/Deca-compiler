@@ -1,0 +1,18 @@
+//Description :
+// Test de decl d'un objet de type incompatible
+//
+// Resultats :
+// Erreur
+
+
+class Premiere{
+
+}
+
+class Seconde extends Premiere{
+
+}
+
+{
+int sec = new Premiere();
+}

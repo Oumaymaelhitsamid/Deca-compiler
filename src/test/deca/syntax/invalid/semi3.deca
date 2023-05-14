@@ -1,0 +1,10 @@
+//Description
+//    Vérifier la considération des points virgules
+//
+//Résultats :
+//    Erreur Lexicale:
+//    Ligne 9
+
+{
+println("3")
+}

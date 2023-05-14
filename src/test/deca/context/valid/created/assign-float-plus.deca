@@ -1,0 +1,11 @@
+//Description :
+// Test d'une assignation d'une addition entière dans un float
+//
+// Resultats :
+//
+
+
+{
+    float b;
+    b = 2 + 2;
+}

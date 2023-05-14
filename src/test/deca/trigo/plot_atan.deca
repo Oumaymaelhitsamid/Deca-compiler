@@ -1,0 +1,11 @@
+#include "Math.decah"
+{
+    Math m = new Math();
+    float i = -10.0, a, au;
+    while (i < 10.0) {
+        a = m.atan(i);
+        au = m.ulp(a);
+        printlnx(i, ",", a, ",", au);
+        i = i + 0.01;
+    }
+}

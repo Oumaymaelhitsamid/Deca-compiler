@@ -1,0 +1,13 @@
+//Description :
+//attribut meme nom
+//
+// Resultats :
+// Erreur
+
+class A{
+    protected float a = 3;
+
+    int a() {
+        print("bjr");
+    }
+}

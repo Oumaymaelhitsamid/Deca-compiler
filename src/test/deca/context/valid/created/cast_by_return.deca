@@ -1,0 +1,18 @@
+//Description :
+// Test d'appel d'attribut
+//
+// Resultats :
+// Erreur
+
+
+class Premiere {
+    protected int test;
+
+    float getTest(){
+     return this.test;
+    }
+}
+
+{
+
+}

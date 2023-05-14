@@ -1,0 +1,9 @@
+//Description
+//    Vérifier le if
+//
+//Résultats :
+//    Erreur Syntaxique ligne 9
+//
+
+
+if(class A){} else({});

@@ -1,0 +1,17 @@
+//Description :
+// Test de print une classe
+//
+// Resultats :
+// Erreur
+
+
+class Premiere{
+
+}
+
+
+
+{
+Premiere a = new Premiere();
+print(a);
+}

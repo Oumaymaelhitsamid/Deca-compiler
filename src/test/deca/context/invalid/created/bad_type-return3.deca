@@ -1,0 +1,17 @@
+//Description :
+// Test d'un mauvais type de return
+//
+// Resultats :
+// Erreur
+
+
+class A{
+ protected boolean a;
+}
+
+class B extends A{
+
+  int getA(){
+  return this.a;
+  }
+}

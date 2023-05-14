@@ -1,0 +1,14 @@
+#include "Math.decah"
+
+{
+    Math m = new Math();
+    float u, p;
+    int emax = 30;
+    int e = - emax;
+    while (e <= emax) {
+        p = m.fpow(10, e);
+        u = m.ulp(p);
+        printlnx(e, ",", p, ",", u);
+        e = e + 1;
+    }
+}

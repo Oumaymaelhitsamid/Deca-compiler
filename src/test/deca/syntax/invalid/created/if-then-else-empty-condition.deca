@@ -1,0 +1,9 @@
+// Test d'un if then else avc une condition vide
+
+{
+    if () {
+        print("Oui");
+    } else {
+        print("Non");
+    }
+}

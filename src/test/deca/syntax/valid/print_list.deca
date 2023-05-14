@@ -1,0 +1,12 @@
+// Description :
+// Vérifier la syntaxe des print
+//
+// Resultats :
+// ok
+
+{
+print(1);
+println(2);
+printx(3.0);
+printlnx(4.0);
+}

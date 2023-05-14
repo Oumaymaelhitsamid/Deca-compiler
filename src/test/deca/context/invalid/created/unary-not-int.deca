@@ -1,0 +1,9 @@
+//Description :
+// Test du not unaire sur un entier
+//
+// Resultats :
+// Erreur
+
+{
+    !12;
+}

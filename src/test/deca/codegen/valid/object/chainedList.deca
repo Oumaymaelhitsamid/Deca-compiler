@@ -1,0 +1,40 @@
+// 1
+// 2
+// 3
+
+// Programme pour des liste chainees d'entiers
+
+class Cell{
+    int content;
+    Cell next;
+    Cell endOfList;
+
+    void init(int a, Cell b, Cell c){
+        this.content = a;
+        this.next = b;
+        this.endOfList = c;
+    }
+
+    void printList(){
+        println(content);
+        if (this.next.equals(this.endOfList)){
+        } else {
+            next.printList();
+        }
+    }
+}
+
+{
+    int a1 = 1;
+    int a2 = 2;
+    int a3 = 3;
+    int a4 = 9;
+    Cell c1 = new Cell();
+    Cell c2 = new Cell();
+    Cell c3 = new Cell();
+    Cell endOfList = new Cell();
+    c3.init(a3, endOfList, endOfList);
+    c2.init(a2, c3, endOfList);
+    c1.init(a1, c2, endOfList);
+    c1.printList();
+}

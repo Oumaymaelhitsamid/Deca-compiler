@@ -1,0 +1,79 @@
+//Bonjour, je suis le Batiment numero 1 et je coute 2.50000e+05
+//Bonjour, je suis le Batiment numero 2 et je coute 2.20000e+05
+//Bonjour, je suis le Batiment numero 3 et je coute 2.22222e+05
+//Bonjour, je suis le Magasin numero 4, je coute 5.67890e+05 et je vous propose 250 produits différents
+
+// On fait un test en implementant une rue pietonne.
+
+class Batiment{
+    int id;
+    int taille = 500;
+    float prix;
+    Batiment next;
+    Batiment finDeRue;
+
+    void init(int a, float b, Batiment c, Batiment d){
+        this.id = a;
+        prix = b;
+        next = c;
+        finDeRue = d;
+    }
+
+    void printBatiment(){
+        print("Bonjour, je suis le Batiment numero ");
+        print(this.id);
+        print(" et je coute ");
+        println(prix);
+    }
+
+    void printRue(){
+        this.printBatiment();
+        if (!this.next.equals(this.finDeRue)){
+            this.next.printRue();
+        }
+    }
+
+}
+
+class Maison extends Batiment{
+
+    int occupants;
+
+    void initMaison(int a, float b, Batiment c, Batiment d, int e){
+        this.init(a, b, c, d);
+        occupants = e;
+    }
+
+}
+
+class Magasin extends Batiment{
+    int produits;
+
+    void initMagasin(int a, float b, Batiment c, Batiment d, int e){
+        this.init(a, b, c, d);
+        produits = e;
+    }
+
+    void printBatiment(){
+        print("Bonjour, je suis le Magasin numero ");
+        print(this.id);
+        print(", je coute ");
+        print(prix);
+        print(" et je vous propose ");
+        print(produits);
+        println(" produits différents");
+    }
+}
+
+{
+    Batiment finDeRue = new Batiment();
+    Batiment b1 = new Batiment();
+    Batiment b2 = new Maison();
+    Maison b3 = new Maison();
+    Magasin b4 = new Magasin();
+    b1.init(1, 250000.0, b2, finDeRue);
+    b2.init(2, 220000, b3, finDeRue);
+    b3.initMaison(3, 222222.22, b4, finDeRue, 12);
+    b4.initMagasin(4, 567890.12, finDeRue, finDeRue, 250);
+    b1.printRue();
+}

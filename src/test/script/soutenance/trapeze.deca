@@ -1,0 +1,19 @@
+#include "Math.decah"
+
+{
+    Math m = new Math();
+
+    float a = 0;
+    float b = m.pi;
+    int N = 100;
+
+    float A = 0;
+    int i = 0;
+    float step = (b-a)/N;
+    while (i < N) {
+        A = A + 0.5*(m.sin(i*step) + m.sin((i+1)*step));
+        i = i + 1;
+    }
+    println("integrale de ", a, " à ", b, " de sin(x) = ", step*A);
+
+}

@@ -1,0 +1,10 @@
+//
+
+// Instanciation d'Object
+
+class A{}
+
+{
+    Object obj1 = new A();
+    Object obj2 = new Object();
+}

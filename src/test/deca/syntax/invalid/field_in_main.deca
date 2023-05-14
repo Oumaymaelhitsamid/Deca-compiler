@@ -1,0 +1,10 @@
+//Description
+//    Vérifier la decl d'attrivut
+//
+//Résultats :
+//    Erreur Syntaxique ligne 9
+//
+
+{
+protected int a = 4;
+}

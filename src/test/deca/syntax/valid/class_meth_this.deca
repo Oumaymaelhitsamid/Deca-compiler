@@ -1,0 +1,21 @@
+//Description
+//    Vérifier la syntaxe du this dans une methode
+//
+//Résultats :
+//   Ok
+//
+
+class A{
+protected int a = 3;
+float b;
+
+  void setA(int a){
+  a = a;
+  }
+
+  void setB(float b){
+  this.b = b;
+  }
+}
+
+{}

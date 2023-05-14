@@ -1,0 +1,34 @@
+//3
+
+//Decl method
+
+class A{
+protected int a;
+int b = 3;
+
+  int getX(){
+  int a = 3;
+  return a;
+  }
+
+  void setX(int a, int c){
+  this.a = a+c;
+  }
+
+}
+
+class B extends A{
+  float toto = 3;
+
+  float test(float tata){
+  print(getX());
+  return (getX()+toto+tata);
+  }
+
+  A test_a = new A();
+
+  void a_from_new(){
+  print(test_a.getX());
+  }
+
+}

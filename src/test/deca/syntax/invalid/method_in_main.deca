@@ -1,0 +1,12 @@
+//Description
+//    Vérifier la decl d'une methode dans le main
+//
+//Résultats :
+//    Erreur Lexicale/Syntaxique :
+//    Ligne 9
+
+{
+void getX(){
+;
+}
+}

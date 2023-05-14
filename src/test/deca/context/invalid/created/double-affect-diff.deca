@@ -1,0 +1,11 @@
+//Description :
+// Test d'une double initialisation
+//
+// Resultats :
+// Erreur
+
+
+{
+    int x = 2;
+    float x = 2.0;
+}

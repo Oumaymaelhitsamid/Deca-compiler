@@ -1,0 +1,13 @@
+//Description :
+// Test d'une opération entre 2 variables
+//
+// Resultats :
+// 
+
+
+{
+    int x = 2;
+    int y = 3;
+
+    x + y;
+}

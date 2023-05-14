@@ -1,0 +1,15 @@
+//Description :
+// test des float cond
+//
+// Resultats :
+// ok
+
+{
+if(3.0 > 5.0){
+print("non ok");
+} else if(3.0 > 3.0){
+print("non ok");
+} else {
+print("ok");
+}
+}

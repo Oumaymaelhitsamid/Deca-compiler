@@ -1,0 +1,18 @@
+//Description :
+// Test de decl d'un objet de type incompatible
+//
+// Resultats :
+// Erreur
+
+
+class Premiere{
+protected int x;
+
+}
+
+class Seconde extends Premiere{
+protected boolean x;
+}
+
+{
+}

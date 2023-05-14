@@ -1,0 +1,16 @@
+//Description :
+// Test de déclaration de deux classes ayant le même nom
+//
+// Resultats :
+// Erreur
+
+
+class Premiere {
+
+}
+
+class Premiere {
+
+}
+
+{}

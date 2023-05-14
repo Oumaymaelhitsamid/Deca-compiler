@@ -1,0 +1,17 @@
+//Description :
+// Methode avec paramètre de type void
+//
+// Resultats :
+// Erreur
+
+class A {
+
+    int methode(void x) {
+        println("C'est non");
+    }
+}
+
+
+{
+    
+}

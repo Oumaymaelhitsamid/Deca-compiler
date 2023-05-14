@@ -1,0 +1,12 @@
+//Description :
+// Test d'un print de variable
+//
+// Resultats :
+// 2
+
+
+{
+    int x = 2;
+
+    print(x);
+}

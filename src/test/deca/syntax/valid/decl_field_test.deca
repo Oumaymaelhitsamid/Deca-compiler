@@ -1,0 +1,12 @@
+//Description
+//    Vérifier la decl de field en ligne
+//
+//Résultats :
+//   Ok
+//
+
+class A{
+protected int a,b,c=3;
+int d,e = 2;
+float f,g = 4;
+}

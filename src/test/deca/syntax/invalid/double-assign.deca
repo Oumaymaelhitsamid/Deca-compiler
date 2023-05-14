@@ -1,0 +1,10 @@
+//Description :
+// Test double assign invalide
+//
+// Resultats :
+// Erreur
+
+{
+    int x = 0; int y;
+    x = y+1 = x+2;
+}

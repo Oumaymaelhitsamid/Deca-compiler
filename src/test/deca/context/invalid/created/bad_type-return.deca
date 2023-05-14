@@ -1,0 +1,16 @@
+//Description :
+// Test d'un mauvais type de return
+//
+// Resultats :
+// Erreur
+
+
+class A{
+ protected float a;
+
+ int getA(){
+  return a;
+ }
+}
+
+{}

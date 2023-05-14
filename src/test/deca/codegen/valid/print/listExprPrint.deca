@@ -1,0 +1,9 @@
+// Description :
+// print multiples
+// Resultat :
+// HelloWorldHelloEveryBody
+
+{
+    print("Hello", "World") ;
+    print("Hello", "Every", "Body") ;
+}

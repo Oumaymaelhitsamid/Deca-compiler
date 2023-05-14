@@ -1,0 +1,13 @@
+//Description
+//    Vérifier la géné de méthode dans un if
+//
+//Résultats :
+//    Erreur Lexicale:
+//    Ligne 11
+
+class A{
+
+if(true){
+void getX(){;}
+}
+}

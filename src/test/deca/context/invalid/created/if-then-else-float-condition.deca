@@ -1,0 +1,13 @@
+//Description :
+// Test d'un if then else avc une condition float
+//
+// Resultats :
+// Erreur
+
+{
+    if (1.0) {
+        print("Oui");
+    } else {
+        print("Non");
+    }
+}

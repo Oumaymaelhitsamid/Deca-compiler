@@ -1,0 +1,21 @@
+//Description :
+// Test de methode meme nom dans class different
+//
+// Resultats :
+// Erreur
+
+
+class Premiere {
+
+    void printX(float x){
+    print(x);
+    }
+}
+
+class Second {
+
+void printX(float x){
+print(x);
+  }
+  
+}

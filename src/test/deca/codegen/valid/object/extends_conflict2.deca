@@ -1,0 +1,21 @@
+//Description
+//    Vérifier le mélange des noms
+//
+//Résultats :
+//  4
+//
+
+class A{
+  protected int a = 3;
+}
+
+class B extends A{
+  void printA(int a){
+    println(a);
+  }
+}
+
+{
+B b = new B();
+b.printA(4);
+}

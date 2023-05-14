@@ -1,0 +1,10 @@
+//Description :
+//attribut meme nom
+//
+// Resultats :
+// Erreur
+
+class A{
+int a = 3;
+protected float a = 3;
+}

@@ -1,0 +1,11 @@
+//Description :
+// Test d'une reassignation d'un entier à null
+//
+// Resultats :
+//  Erreur
+
+
+{
+    int a = 3;
+    a = null;
+}

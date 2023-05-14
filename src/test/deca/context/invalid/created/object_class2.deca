@@ -1,0 +1,7 @@
+//Description :
+//A hérite elle même
+//
+// Resultats :
+// Erreur
+
+class A extends A{}

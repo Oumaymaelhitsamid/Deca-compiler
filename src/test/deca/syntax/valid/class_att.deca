@@ -1,0 +1,13 @@
+//Description
+//    Vérifier la syntaxe d'une simple class avec attribut
+//
+//Résultats :
+//   Ok
+//
+
+class A{
+protected int a = 3;
+float b;
+}
+
+{}

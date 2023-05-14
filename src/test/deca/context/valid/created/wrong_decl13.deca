@@ -1,0 +1,15 @@
+//Description
+//    Vérifier la decl de var dans method
+//
+//Résultats :
+//    Erreur Syntaxique ligne 8
+//
+
+
+class A{
+
+  void setX(){
+    int float = 3;
+  }
+
+}

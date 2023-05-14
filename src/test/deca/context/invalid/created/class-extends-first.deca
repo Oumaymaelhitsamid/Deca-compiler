@@ -1,0 +1,16 @@
+//Description :
+// Test de extends avant la définition de la super classe
+//
+// Resultats :
+// Erreur
+
+
+class Premiere extends Seconde {
+
+}
+
+class Seconde {
+
+}
+
+{}

@@ -1,0 +1,19 @@
+//Description :
+// Test d'un appel de méthode sur pas assez d'arguments
+//
+// Resultats :
+// Erreur
+
+class A {
+    int a = 2;
+
+    void method(int a, int b, int c) {
+        print("oui");
+    }
+}
+
+
+{
+    A a = new A();
+    a.method(2);
+}

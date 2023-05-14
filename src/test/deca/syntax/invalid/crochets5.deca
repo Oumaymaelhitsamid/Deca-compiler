@@ -1,0 +1,10 @@
+//Description
+//    Vérifier la considération des crochets
+//
+//Résultats :
+//    Erreur Lexicale:
+//    Ligne 9
+
+{
+if(a==3){;} else {
+}

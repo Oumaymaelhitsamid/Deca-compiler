@@ -1,0 +1,21 @@
+//Description :
+// Test d'affectation
+//
+// Resultats :
+// 2
+
+
+class Premiere {
+
+    int x = 0;
+
+    void affiche() {
+        print("Yo : ", x);
+    }
+}
+
+{
+Premiere prem = new Premiere();
+prem.x = 2;
+print(prem.x);
+}

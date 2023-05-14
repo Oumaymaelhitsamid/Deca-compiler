@@ -1,0 +1,13 @@
+//Description :
+// Verifie l'ajout de literalstring.
+//
+// Resultats :
+// Erreur
+
+
+
+
+{
+    print("Michel"+"Forever") ;
+    println("To"+"night") ;
+}

@@ -1,0 +1,9 @@
+//Description :
+// Test d'une opération booléenne
+//
+// Resultats :
+//
+
+{
+    true && false ;
+}

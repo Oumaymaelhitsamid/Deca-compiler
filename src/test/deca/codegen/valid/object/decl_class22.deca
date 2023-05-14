@@ -1,0 +1,26 @@
+//6
+
+//Decl method
+
+class A{
+protected int a = 3;
+
+  int getA(){
+  return a;
+  }
+
+
+}
+
+class B extends A{
+
+  int getA(){
+    return a+3;
+  }
+
+}
+
+{
+B object_a = new B();
+print(object_a.getA());
+}

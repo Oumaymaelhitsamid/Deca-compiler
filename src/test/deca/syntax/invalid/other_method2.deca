@@ -1,0 +1,10 @@
+//Description
+//    Autre chose qu'attribut ou methode dans une decl de class
+//
+//Résultats :
+//    Erreur Lexicale:
+//    Ligne 9
+
+class A{
+readInt();
+}

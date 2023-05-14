@@ -1,0 +1,13 @@
+//Description :
+// test des modulos
+//
+// Resultats :
+// ok
+
+{
+if(6%4 == 2){
+print("ok");
+} else {
+print("non ok");
+}
+}

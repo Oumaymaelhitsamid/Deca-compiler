@@ -1,0 +1,8 @@
+// Description :
+// test du print
+// Resultat :
+// Hello World
+
+{
+    print("Hello World") ;
+}

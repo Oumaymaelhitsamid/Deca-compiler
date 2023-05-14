@@ -1,0 +1,10 @@
+//Description :
+// Declaration d'une variable de type void
+//
+// Resultats :
+// Erreur
+
+
+{
+    void x;
+}

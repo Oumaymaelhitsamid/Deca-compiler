@@ -1,0 +1,11 @@
+//Description :
+// Test d'une addition de int et float
+//
+// Resultats :
+//
+
+
+{
+    float x = 1 + 2.0;
+    float y = 1.0 + 2;
+}

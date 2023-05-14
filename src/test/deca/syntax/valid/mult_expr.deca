@@ -1,0 +1,14 @@
+//Description
+//    Vérifier la syntaxe des mult exp
+//
+//Résultats :
+//   Ok
+//
+
+{
+int a = -3;
+int b = 3 * 3;
+int c = 4/4;
+int a = 6%3;
+int d = 4 -3;
+}

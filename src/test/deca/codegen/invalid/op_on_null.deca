@@ -1,0 +1,17 @@
+// Description:
+//  Verif div par zero
+//
+// Résultat:
+//  Erreur
+
+class A{
+
+  void printA(){
+    print("A");
+  }
+
+}
+ {
+ A test;
+ test.printA();
+ }

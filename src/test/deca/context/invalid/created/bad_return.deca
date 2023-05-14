@@ -1,0 +1,20 @@
+//Description :
+// Test de  return mauvais type
+//
+// Resultats :
+// Erreur
+
+
+class Premiere {
+    int x = 2;
+    boolean x = true;
+
+    int getX(){
+    return this.x;
+    }
+}
+
+{
+Premiere prem = new Premiere();
+boolean a = prem.getX();
+}

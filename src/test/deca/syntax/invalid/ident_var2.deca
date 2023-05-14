@@ -1,0 +1,10 @@
+//Description
+//    Vérifier les noms d'ident uniques
+//
+//Résultats :
+//    Erreur Lexicale:
+//    Ligne 9
+
+{
+int while = 3;
+}

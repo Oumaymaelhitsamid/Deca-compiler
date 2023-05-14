@@ -1,0 +1,10 @@
+//Description
+//    Vérifier la syntaxe des inexp
+//
+//Résultats :
+//   Ok
+//
+
+{
+int a,b=3;
+}

@@ -1,0 +1,21 @@
+//Description :
+// Test d'une methode qui ne return pas
+//
+// Resultats :
+// Pas de soucis
+
+
+class Premiere {
+
+
+
+  int random(int x){
+    
+    }
+
+  }
+
+
+
+{
+}

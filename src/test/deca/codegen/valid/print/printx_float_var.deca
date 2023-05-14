@@ -1,0 +1,9 @@
+// Description :
+// verifie printx sur une variable float
+// Resultat :
+// 3.6
+
+{
+    float a = 3.6;
+    printx(a);
+}

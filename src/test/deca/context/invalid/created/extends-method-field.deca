@@ -1,0 +1,24 @@
+//Description :
+// Test d'un appel d'attribut
+//
+// Resultats :
+// Erreur
+
+class A {
+    int a;
+    protected int b = 2;
+
+}
+
+class B extends A {
+    
+    void b() {
+        print("bjr non");
+    }
+    
+}
+
+{
+    A a = new B();
+    a.b;
+}

@@ -1,0 +1,10 @@
+// Description :
+// print de bools
+// Resultat :
+// truefalse
+//
+
+{
+    print(true);
+    println(false);
+}

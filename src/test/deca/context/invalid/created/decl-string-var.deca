@@ -1,0 +1,10 @@
+//Description :
+// Declaration d'une variable string avec initalisation
+//
+// Resultats :
+// Erreur
+
+
+{
+    string x = "Bjr";
+}

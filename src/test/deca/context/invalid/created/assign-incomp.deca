@@ -1,0 +1,11 @@
+//Description :
+// Assignations incompatible
+//
+// Resultats :
+// Erreur
+
+{
+    int x;
+
+    x = true;
+}

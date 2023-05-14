@@ -1,0 +1,23 @@
+//Description :
+// Test d'appel d'attribut
+//
+// Resultats :
+// Erreur
+
+
+class Premiere {
+    int x = 2;
+    protected float y = 3;
+}
+
+class Second extends Premiere {
+    Premiere prem = new Premiere();
+
+    void printX(){
+        print(this.prem.y);
+    }
+
+}
+
+{
+}

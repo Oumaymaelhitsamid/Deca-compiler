@@ -1,0 +1,23 @@
+//
+
+//Decl method
+
+class A{
+protected int a;
+int b = 3;
+
+  int getX(){
+  int a = 3;
+  return a;
+  }
+
+  void setX(int a, int c){
+  this.a = a+c;
+  }
+
+}
+
+{
+A object_a = new A();
+print(object_a.getX());
+}

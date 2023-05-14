@@ -1,0 +1,15 @@
+//Description
+//    Vérifier la decl de param
+//
+//Résultats :
+//    Erreur Syntaxique ligne 8
+//
+
+
+class A{
+
+  void setX(int int a){
+
+  }
+
+}

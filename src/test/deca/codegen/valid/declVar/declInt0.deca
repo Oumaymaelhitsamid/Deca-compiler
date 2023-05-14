@@ -1,0 +1,8 @@
+// 3
+
+// Decalaration d'un entier
+
+{
+    int i = 3;
+    print(i);
+}

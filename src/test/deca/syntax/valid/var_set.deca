@@ -1,0 +1,11 @@
+//Description
+// Vérifier la déclaration de variable en set;
+//
+//Résultats :
+//   Ok
+//
+
+
+{
+  int x=1 , y=x;
+}

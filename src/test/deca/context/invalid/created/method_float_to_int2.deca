@@ -1,0 +1,18 @@
+//Description :
+// Test d'une déclaration de deux méthodes avec le même nom
+//
+// Resultats :
+// Erreur
+
+
+class Premiere {
+
+    void printX(int x){
+    print(x);
+    }
+}
+
+{
+Premiere prem = new Premiere();
+prem.printX(3.2);
+}

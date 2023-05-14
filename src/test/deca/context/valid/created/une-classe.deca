@@ -1,0 +1,14 @@
+//Description :
+// Test de déclaration d'une unique classe
+//
+// Resultats :
+// 
+
+
+class Premiere {
+
+}
+
+{
+    print("ok");
+}

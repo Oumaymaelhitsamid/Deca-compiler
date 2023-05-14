@@ -1,0 +1,9 @@
+// Description:
+//  Verif div par zero
+//
+// Résultat:
+//  Erreur
+
+{
+float a = 6.0/0;
+}

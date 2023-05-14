@@ -1,0 +1,8 @@
+// 5.10000e+00
+
+// Ajout de flottants mais sans les f
+
+{
+    1.0 + 1.1 ;
+    print(2.1 + 3.0) ;
+}

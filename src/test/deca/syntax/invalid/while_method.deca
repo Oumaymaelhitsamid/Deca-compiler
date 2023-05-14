@@ -1,0 +1,13 @@
+//Description
+//    Vérifier la géné de méthode dans un while
+//
+//Résultats :
+//    Erreur Lexicale:
+//    Ligne 11
+
+class A{
+
+while(true){
+void getX(){;}
+}
+}

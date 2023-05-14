@@ -1,0 +1,13 @@
+//Description :
+// Test de déclaration de classe avec deux arguements
+//
+// Resultats :
+// 
+
+
+class Premiere {
+    int x = 2;
+    boolean a;
+}
+
+{}

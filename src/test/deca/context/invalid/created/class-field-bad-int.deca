@@ -1,0 +1,12 @@
+//Description :
+// Test de déclaration de classe avec un argument mal défini
+//
+// Resultats :
+// Erreur
+
+
+class Premiere {
+    boolean x = 3;
+}
+
+{}

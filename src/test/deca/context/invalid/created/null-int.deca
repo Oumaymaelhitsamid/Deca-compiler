@@ -1,0 +1,10 @@
+//Description :
+// Test d'un entier null
+//
+// Resultats :
+//  Erreur
+
+
+{
+    int a = null;
+}

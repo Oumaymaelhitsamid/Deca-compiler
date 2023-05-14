@@ -1,0 +1,10 @@
+// Description:
+//  Verif div par zero
+//
+// Résultat:
+//  Erreur
+
+{
+float b = 3.0 - 3.0;
+float a = 6.0/b;
+}

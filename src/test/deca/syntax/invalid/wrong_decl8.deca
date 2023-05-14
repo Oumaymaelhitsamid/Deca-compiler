@@ -1,0 +1,11 @@
+//Description
+//    Vérifier la decl d'attributs
+//
+//Résultats :
+//    Erreur Syntaxique ligne 8
+//
+
+
+class A{
+float else = 3.0;
+}

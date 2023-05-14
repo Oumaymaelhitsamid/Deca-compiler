@@ -1,0 +1,10 @@
+//Description
+//    Vérifier le while
+//
+//Résultats :
+//    Erreur Syntaxique ligne 9
+//
+
+{
+while(protected int a){{}}
+}

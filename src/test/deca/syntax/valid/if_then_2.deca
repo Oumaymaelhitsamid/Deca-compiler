@@ -1,0 +1,8 @@
+//Description
+//    Vérifier le comportement du if/else
+//
+//Résultats :
+//   Ok
+//
+
+{if(true){;} else if(false){;}}

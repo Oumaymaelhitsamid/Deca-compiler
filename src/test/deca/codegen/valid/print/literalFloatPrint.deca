@@ -1,0 +1,9 @@
+// Description :
+// print de flottants
+// Resultat :
+// 1.01.1
+
+{
+    print(1.0f) ;
+    print(1.1f) ;
+}

@@ -1,0 +1,14 @@
+//Description :
+// Test d'un appel d'attribut
+//
+// Resultats :
+// Erreur
+
+class A {
+    int a;
+}
+
+{
+    A a = new A();
+    a.b;
+}

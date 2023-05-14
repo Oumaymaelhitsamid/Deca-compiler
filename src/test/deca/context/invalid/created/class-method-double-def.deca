@@ -1,0 +1,19 @@
+//Description :
+// Test d'une déclaration de deux méthodes avec le même nom
+//
+// Resultats :
+// Erreur
+
+
+class Premiere {
+
+    void affiche(int i, float f) {
+        print("Yo : ", i, f);
+    }
+
+    void affiche(int i) {
+        print("Yo :", i);
+    }
+}
+
+{}

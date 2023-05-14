@@ -1,0 +1,6 @@
+#include "Math.decah"
+
+{
+    Math m = new Math();
+    //rintln(m.sin(0));
+}

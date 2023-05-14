@@ -1,0 +1,9 @@
+// Description :
+// test le printx sur un litéral flottant
+// Resultat :
+// 0x
+
+
+{
+printx(4.6);
+}

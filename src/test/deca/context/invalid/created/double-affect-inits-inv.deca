@@ -1,0 +1,10 @@
+//Description :
+// Test d'une double affectation sans init puis avec
+//
+// Resultats :
+// Erreur
+
+{
+    int x = 2 ;
+    int x ;
+}

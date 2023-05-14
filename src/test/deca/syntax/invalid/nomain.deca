@@ -1,0 +1,8 @@
+//Description
+//    Vérifier un prg vide
+//
+//Résultats :
+//    Erreur Syntaxique ligne 8
+//
+
+int a = 4;

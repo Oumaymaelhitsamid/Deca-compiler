@@ -1,0 +1,8 @@
+// Description :
+// print sur un entier negatif 
+// Resultat :
+// -5
+
+{
+    print(-5) ;
+}

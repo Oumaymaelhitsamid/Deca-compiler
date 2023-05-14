@@ -1,0 +1,10 @@
+//Description
+//    Vérifier les opérations
+//
+//Résultats :
+//    Erreur Lexicale:
+//    Ligne 9
+
+{
+x = y + 1 = y + 4;
+}

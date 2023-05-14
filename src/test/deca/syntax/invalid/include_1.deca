@@ -1,0 +1,10 @@
+//Description
+//    Vérifier l'inclusion d'un fichier (lexicalement);
+//
+//Résultats :
+//    Erreur Lexicale:
+//    Ligne 8 : Syntaxe du #include incorrecte : #include "nom_du_fichier.decah"
+
+#include "Math.decah
+{
+}

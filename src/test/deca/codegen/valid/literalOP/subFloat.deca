@@ -1,0 +1,8 @@
+// 2.50000e+00
+
+// Test des soustraction sur flottants
+
+{
+    7.0f - 5.7f ;
+    print(4.0f - 1.5f) ;
+}

@@ -1,0 +1,7 @@
+// -3
+
+// Test du moins unaire compilation
+
+{
+    print(-3);
+}

@@ -1,0 +1,10 @@
+// 
+
+#include "Math.decah"
+
+{
+    Math m = new Math();
+    println("ulp(0) = ", m.ulp(0));
+    println("ulp(100000000) = ", m.ulp(100000000));
+    println("ulp(pi) = ", m.ulp(m.pi));
+}

@@ -1,0 +1,10 @@
+// Description :
+// plusieurs println sur des literaux int
+// Resultat :
+// 8
+// -7
+
+{
+    println(8) ;
+    println(-7) ;
+}

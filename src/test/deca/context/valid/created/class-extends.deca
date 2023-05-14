@@ -1,0 +1,30 @@
+//Description :
+// Test d'un objet null
+//
+// Resultats :
+// NON
+
+class A {
+    int a = 3;
+
+    void printA() {
+        print("OUI");
+    }
+}
+
+class B extends A {
+    float a = 1;
+
+    void printA() {
+        print("NON");
+    }
+
+    void printB() {
+        print("OUI");
+    }
+}
+
+{
+    B objB = new B();
+    objB.printA();
+}

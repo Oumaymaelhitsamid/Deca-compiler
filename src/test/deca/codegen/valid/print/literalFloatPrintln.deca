@@ -1,0 +1,10 @@
+// Description :
+// println literaux float
+// Resultat :
+// 0.5
+// 3.0
+
+{
+    println(0.5f) ;
+    println(3.0f) ;
+}

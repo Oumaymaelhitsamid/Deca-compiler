@@ -1,0 +1,10 @@
+//Description
+//    Vérifier la syntaxe d'une simple class
+//
+//Résultats :
+//   Ok
+//
+
+class A{}
+
+{}

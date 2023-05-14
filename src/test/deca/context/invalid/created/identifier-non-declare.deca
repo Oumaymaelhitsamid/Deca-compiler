@@ -1,0 +1,9 @@
+//Description :
+// Expression invalide
+//
+// Resultats :
+// Erreur
+
+{
+    intx = true;
+}

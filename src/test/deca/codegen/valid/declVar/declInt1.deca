@@ -1,0 +1,11 @@
+// 122
+
+// On teste le multi assignement
+
+{
+    int a;
+    int b=1;
+    print(b);
+    a = b = 2;
+    print(a,b);
+}

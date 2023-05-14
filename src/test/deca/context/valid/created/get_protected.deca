@@ -1,0 +1,19 @@
+//Description :
+// Test d'une déclaration de méthode avec paramètre dans une classe
+//
+// Resultats :
+//
+
+
+class Premiere {
+
+  protected int a = 3;
+}
+
+class Second extends Premiere{
+  void printA(){
+    print(this.a);
+  }
+}
+
+{}

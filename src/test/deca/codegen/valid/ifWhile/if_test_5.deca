@@ -1,0 +1,14 @@
+//ok
+
+//Test des if
+{
+if(true){
+ if(false){
+  print("non ok");
+ } else if(3>4) {
+  print("non ok");
+ } else {
+ print("ok");
+ }
+}
+}

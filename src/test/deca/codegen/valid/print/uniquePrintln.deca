@@ -1,0 +1,9 @@
+// Description :
+// test de println
+// Resultat :
+// Hello universe
+//
+
+{
+    println("Hello universe");
+}

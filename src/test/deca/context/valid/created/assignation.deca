@@ -1,0 +1,13 @@
+//Description :
+// Assignation valide
+//
+// Resultats :
+//
+
+
+{
+    int x;
+    int y;
+
+    x = y = 2;
+}

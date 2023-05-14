@@ -1,0 +1,10 @@
+//ok
+
+//Test des opérations boolean
+{
+boolean a = false;
+boolean b = false;
+a = !(a && b);
+if(a){print("ok");} else{print("non ok");}
+
+}

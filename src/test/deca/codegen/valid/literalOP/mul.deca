@@ -1,0 +1,8 @@
+// -7
+
+// Multiplication entière
+
+{
+    4*8 ;
+    print(-1*7);
+}

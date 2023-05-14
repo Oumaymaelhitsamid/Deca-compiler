@@ -1,0 +1,20 @@
+//Description :
+// Test d'un appel à equals
+//
+// Resultats :
+// OUI
+
+class A {
+    
+}
+
+{
+    A a = new A();
+    A b = new A();
+
+    if (a.equals(b)) {
+        print("NON");
+    } else {
+        print("OUI");
+    }
+}

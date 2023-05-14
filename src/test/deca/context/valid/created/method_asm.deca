@@ -1,0 +1,18 @@
+//Description :
+// Test d'une methode qui ne return pas forcement
+//
+// Resultats :
+// Pas de soucis
+
+
+class Premiere {
+
+  void random(int x) asm ("INST1
+  INST 2");
+
+}
+
+
+
+{
+}

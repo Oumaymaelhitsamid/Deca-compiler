@@ -1,0 +1,5 @@
+// 11235813213455
+
+// Suite de fibonacci en deca (avec le moins de caractères possible)
+
+{int a=0;int b=1;int t;int i=0;int n=10;while (i<n) {t=a+b;a=b;b=t;print(a);i=i+1;}}

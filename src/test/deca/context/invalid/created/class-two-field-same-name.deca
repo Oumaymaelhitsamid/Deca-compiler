@@ -1,0 +1,13 @@
+//Description :
+// Test de déclaration de classe avec deux arguments de meme nom mais type différents
+//
+// Resultats :
+// Erreur
+
+
+class Premiere {
+    int x = 2;
+    boolean x = true;
+}
+
+{}

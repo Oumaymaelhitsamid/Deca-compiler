@@ -1,0 +1,17 @@
+//Description :
+// Test d'un retrun de type inconnu
+//
+// Resultats :
+// Erreur
+
+
+class Premiere {
+
+    ClassInexistante printX(int x){
+    print(x);
+    }
+}
+
+{
+
+}

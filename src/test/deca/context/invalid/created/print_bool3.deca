@@ -1,0 +1,10 @@
+//Description :
+// Print bool
+//
+// Resultats :
+// Erreur
+
+{
+boolean a = true;
+print(a);
+}

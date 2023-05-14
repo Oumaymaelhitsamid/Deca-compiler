@@ -1,0 +1,15 @@
+//Description
+//    Vérifier la syntaxe des inexp
+//
+//Résultats :
+//   Ok
+//
+
+{
+if(3>4){;}
+if(3>=4){;}
+if(3<4){;}
+if(3<=4){;}
+if(3 != 4){;}
+if(3 == 3){;}
+}

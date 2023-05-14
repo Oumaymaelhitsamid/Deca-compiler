@@ -1,0 +1,27 @@
+//Description :
+// Vérification de l'appel de méthode
+//
+// Resultats :
+// A
+
+
+class A {
+
+  void afficheA(){
+    print("A");
+  }
+
+}
+
+class B {
+protected A object_A = new A();
+
+  A getA(){
+  return this.object_A;
+  }
+}
+
+{
+B object_b = new B();
+object_b.getA().afficheA();
+}

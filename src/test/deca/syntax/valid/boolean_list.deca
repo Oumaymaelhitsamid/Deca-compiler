@@ -1,0 +1,12 @@
+//Description
+//    Vérifier le passage des op bool
+//
+//Résultats :
+//   Ok
+//
+
+{
+boolean a = true && false;
+boolean b = false || false;
+boolean c = !true;
+}

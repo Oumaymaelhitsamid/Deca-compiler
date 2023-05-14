@@ -1,0 +1,13 @@
+#include "Math.decah"
+{
+    Math m = new Math();
+    float i = -m.pi, s, c, us, uc;
+    while (i <= m.pi) {
+        s = m.sin(i);
+        c = m.cos(i);
+        us = m.ulp(s);
+        uc = m.ulp(c);
+        printlnx(i, ",", s, ",", c, ",",us,",",uc);
+        i = i + 0.001;
+    }
+}

@@ -1,0 +1,27 @@
+//Description :
+// Test d'un appel d'attribut
+//
+// Resultats :
+// Erreur
+
+class A {
+    int a;
+    
+    int b() {
+        print("bjr non");
+    } 
+
+}
+
+class B extends A {
+    
+    void b() {
+        print("bjr tjs pas");
+    }
+    
+}
+
+{
+    A a = new B();
+    a.b;
+}

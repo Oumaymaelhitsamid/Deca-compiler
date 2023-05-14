@@ -1,0 +1,14 @@
+//Description :
+// Test de la déclaration d'une instance d'une classe créée
+//
+// Resultats :
+// 
+
+
+class Premiere {
+    int x = 0;
+}
+
+{
+    Premiere p = new Premiere();
+}

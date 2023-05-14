@@ -1,0 +1,11 @@
+//Description :
+// Test d'une opération arithmétique en Declaration
+//
+// Resultats :
+//
+
+
+
+{
+    1 + 2;
+}

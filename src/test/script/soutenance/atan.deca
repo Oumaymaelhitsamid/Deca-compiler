@@ -1,0 +1,10 @@
+// 0
+// 0.78
+
+#include "Math.decah"
+
+{
+    Math m = new Math();
+    println("atan(0) = ", m.atan(0));
+    println("atan(1) = ", m.atan(1));
+}

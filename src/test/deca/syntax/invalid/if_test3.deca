@@ -1,0 +1,11 @@
+//Description
+//    Vérifier le if
+//
+//Résultats :
+//    Erreur Syntaxique ligne 10
+//
+
+
+{
+if(if(3==2){;}){;}
+}

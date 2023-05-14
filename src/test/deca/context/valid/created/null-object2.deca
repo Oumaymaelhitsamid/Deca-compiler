@@ -1,0 +1,18 @@
+//Description :
+// Test d'un objet null
+//
+// Resultats :
+//  OUI
+
+class A {
+    int a = 3;
+
+    void printA() {
+        print("OUI");
+    }
+}
+
+{
+    A obj = null;
+    obj.printA();
+}

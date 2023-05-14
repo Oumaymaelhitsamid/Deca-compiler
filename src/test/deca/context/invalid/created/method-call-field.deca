@@ -1,0 +1,15 @@
+//Description :
+// Test d'un appel de méthode sur un attribut de la classe
+//
+// Resultats :
+// Erreur
+
+class A {
+    int a = 2;
+}
+
+
+{
+    A a = new A();
+    a.a(2);
+}

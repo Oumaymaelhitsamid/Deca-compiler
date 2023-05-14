@@ -1,0 +1,11 @@
+
+//Description :
+// Test d'une addition avec int à gauche
+//
+// Resultats :
+// Erreur
+
+
+{
+    float f = 1 + 1.0;
+}

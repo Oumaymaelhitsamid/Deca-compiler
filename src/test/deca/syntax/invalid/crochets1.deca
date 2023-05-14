@@ -1,0 +1,10 @@
+//Description
+//    Vérifier la considération des crochets
+//
+//Résultats :
+//    Erreur Lexicale:
+//    Ligne 9
+
+{
+while(a==3);}
+}

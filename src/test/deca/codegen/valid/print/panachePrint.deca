@@ -1,0 +1,8 @@
+// Description :
+// test print avec plusieurs arguments de types différents
+// Resultat :
+// Hello1242.69
+
+{
+    print("Hello ", 12, " ", 42.69);
+}

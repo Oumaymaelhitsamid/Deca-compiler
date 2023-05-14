@@ -1,0 +1,7 @@
+//Description :
+//B n'existe pas
+//
+// Resultats :
+// Erreur
+
+class A extends B{}

@@ -1,0 +1,10 @@
+//Description :
+// Test d'un readint basique
+//
+// Resultats :
+// 
+
+
+{
+    readInt() ;
+}

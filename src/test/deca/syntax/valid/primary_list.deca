@@ -1,0 +1,15 @@
+//Description
+//    Vérifier la syntaxe des primary exp
+//
+//Résultats :
+//   Ok
+//
+
+{
+int a;
+toto.Bonjour();
+(3+3);
+readInt();
+readFloat();
+new toto();
+}

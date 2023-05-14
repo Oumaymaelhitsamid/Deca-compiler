@@ -1,0 +1,14 @@
+//Description
+// Lancer un stack overflow via une repet d'objet
+//
+// Resultats :
+// Erreur
+
+class A{
+  protected int a = 3;
+  A test = new A();
+  }
+
+{
+  A erer = new A();
+}

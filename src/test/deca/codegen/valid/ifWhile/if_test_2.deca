@@ -1,0 +1,7 @@
+//ok
+
+//Test des if
+{
+boolean a = false;
+if(!a){print("ok");}
+}

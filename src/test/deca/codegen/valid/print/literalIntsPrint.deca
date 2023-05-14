@@ -1,0 +1,10 @@
+// Description :
+// print literal int plusieurs fois
+// Resultat :
+// 10567
+
+{
+    print(1) ;
+    print(0) ;
+    print(567) ;
+}

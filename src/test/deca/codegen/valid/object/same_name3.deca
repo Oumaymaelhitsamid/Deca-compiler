@@ -1,0 +1,26 @@
+//Description
+//    Vérifier le mélange des noms
+//
+//Résultats :
+//  3
+//
+
+class X{
+protected int x;
+
+  int getX(){
+  return this.x;
+  }
+
+  void setX(int x){
+  this.x = x;
+  }
+
+}
+
+{
+  X object_x = new X();
+  int a = 3;
+  object_x.setX(a);
+  print(object_x.getX());
+}

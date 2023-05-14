@@ -1,0 +1,9 @@
+//Description
+//    Class au lieu de class
+//
+//Résultats :
+//    Erreur Lexicale:
+//    Ligne 9
+
+Class A{
+}

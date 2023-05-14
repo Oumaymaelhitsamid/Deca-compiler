@@ -1,0 +1,14 @@
+//Description :
+// Test de  selection erronee
+// Resultats :
+// Erreur
+
+
+class Premiere {
+protected int a;
+}
+
+{
+Premiere prem = new Premiere();
+print(prem.a);
+}

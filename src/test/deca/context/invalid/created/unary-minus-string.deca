@@ -1,0 +1,9 @@
+//Description :
+// Moins unaire sur un string
+//
+// Resultats :
+// Erreur
+
+{
+    -"Bonjour";
+}

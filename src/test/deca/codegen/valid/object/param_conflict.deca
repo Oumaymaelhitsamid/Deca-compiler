@@ -1,0 +1,21 @@
+//Description
+//    Vérifier le mélange des noms
+//
+//Résultats :
+//  3
+//
+
+class A{
+  protected int a = 3;
+
+  void printA(){
+  print(this.a);
+  }
+}
+
+
+
+{
+A b = new A();
+b.printA();
+}

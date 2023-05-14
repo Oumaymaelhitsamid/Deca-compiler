@@ -1,0 +1,7 @@
+//
+
+// On essaye de compiler un print sans ; en fin de ligne.
+
+{
+    print("World Hello")
+}

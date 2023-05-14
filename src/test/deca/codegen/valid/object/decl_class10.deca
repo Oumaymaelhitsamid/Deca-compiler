@@ -1,0 +1,13 @@
+//
+
+//Decl method
+
+class A{
+protected int a;
+int b = 3;
+
+  void getX(){
+  int a = 3;
+  }
+
+}

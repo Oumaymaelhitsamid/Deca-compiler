@@ -1,0 +1,9 @@
+//Description :
+// Initialisation invalide
+//
+// Resultats :
+// Erreur
+
+{
+    int a = new int();
+}

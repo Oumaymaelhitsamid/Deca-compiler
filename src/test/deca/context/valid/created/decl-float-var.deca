@@ -1,0 +1,10 @@
+//Description :
+// Declaration d'une variable float avec initialisation
+//
+// Resultats :
+//
+
+
+{
+    float x = 1.0;
+}

@@ -1,0 +1,18 @@
+//Description :
+// Un programme amusant
+//
+// Resultats :
+//  2
+
+
+class Int {
+
+    int int(int int) {
+        print(int);
+    }
+}
+
+{
+    Int int = new Int();
+    int.int(2);
+}

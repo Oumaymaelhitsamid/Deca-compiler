@@ -1,0 +1,24 @@
+//Description
+//    Vérifier la decl de method
+//
+//Résultats :
+//  ok
+//
+
+class A{
+
+
+  boolean and(boolean a, boolean c){
+  return (a && c);
+  }
+
+}
+
+{
+A objet_a = new A();
+if(objet_a.and(true,false)){
+print("non ok");
+} else {
+print("ok");
+}
+}

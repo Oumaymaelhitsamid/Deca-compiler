@@ -1,0 +1,10 @@
+// Description :
+// test du print sur les char spéciaux
+// Resultat :
+// To
+// to To\to To"to
+
+{
+    print("To\nto ") ;
+    print("To\\to To\"to") ;
+}

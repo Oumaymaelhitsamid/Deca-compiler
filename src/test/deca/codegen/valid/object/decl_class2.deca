@@ -1,0 +1,7 @@
+//
+
+//Decl de classe heritee
+
+class A{}
+
+class B extends A{}

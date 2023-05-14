@@ -1,0 +1,11 @@
+// Description :
+// println multiples
+// Resultat :
+// OuiBonjour
+// NonMerciAu revoir
+// 
+
+{
+    println("Oui", "Bonjour") ;
+    println("Non", "Merci", "Au revoir") ;
+}

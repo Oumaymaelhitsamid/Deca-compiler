@@ -1,0 +1,7 @@
+//
+
+//Decl attribut protected
+
+class A{
+protected int a;
+}

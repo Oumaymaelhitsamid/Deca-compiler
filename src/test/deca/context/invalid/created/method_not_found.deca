@@ -1,0 +1,15 @@
+//Description :
+// Test d'une methode non def
+//
+// Resultats :
+// Erreur
+
+
+class Premiere {
+
+}
+
+{
+Premiere prem = new Premiere();
+prem.existepas();
+}

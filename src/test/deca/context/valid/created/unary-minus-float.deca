@@ -1,0 +1,10 @@
+//Description :
+// Unary minus sur un float
+//
+// Resultats :
+// 
+
+
+{
+    -2.0;
+}

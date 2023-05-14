@@ -1,0 +1,287 @@
+class Math {
+
+	protected float K = 0.6072529350088812561694; // Produit des cos(arctan(2^-i)) utilisé dans cordic
+	protected float x, y, z; // valeurs de retour de cordic
+
+	// Constantes publiques
+	float pi = 3.141592653589793;
+	float halfpi = 1.5707963267948966;
+
+	/* Les quadrants sont :
+	*          ^ y
+	*          1
+	*     II   |   I
+	*		   |
+	*   -1 ----|---- 1 --> x
+	* 		   |
+	*    III   |   IV
+	*         -1
+	*/
+
+	/*
+	* retourne sin(f)
+	* f: angle en radians entre -pi et +pi
+	*/
+	float sin(float f) {
+		if (f >= this.halfpi && f <= this.pi) { // II -> I
+			this.loop(1, 0, f-this.halfpi, 1);
+			return this.x;
+		} else if (f <= -this.halfpi && f >= -this.pi) { // III -> IV
+			this.loop(1, 0, f+this.halfpi, 1);
+			return -this.x;
+		} else if (f >= -this.halfpi && f <= this.halfpi) { // I ou IV
+			this.loop(1, 0, f, 1);
+			return this.y;
+		} else {
+			println("sin: domain error");
+			println(f, " is not in [-pi;pi]");
+			this.crash();
+		}
+	}
+
+	/*
+	* retourne cos(f)
+	* f: angle en radians entre -pi et +pi
+	*/
+	float cos(float f) {
+		if (f >= this.halfpi && f <= this.pi) { // II -> I
+			this.loop(1, 0, f-this.halfpi, 1);
+			return -this.y;
+		} else if (f <= -this.halfpi && f >= -this.pi) { // III -> IV
+			this.loop(1, 0, f+this.halfpi, 1);
+			return this.y;
+		} else if (f >= -this.halfpi && f <= this.halfpi) { // I ou IV
+			this.loop(1, 0, f, 1);
+			return this.x;
+		} else {
+			println("cos: domain error");
+			println(f, " is not in [-pi;pi]");
+			this.crash();
+		}
+	}
+
+	/*
+	* retourne arcsin(f)
+	* f: arc entre -1 et 1
+	*/
+	float asin(float f) {
+		if ( f < -1.0 || f > 1.0) {
+			println("asin: domain error");
+			print(f, " is not in [-1;1]");
+			this.crash();
+		}
+		this.loop(1, 0, f, 2);
+		return this.z;
+	}
+
+	/*
+	* retourne arctan(f)
+	* f: arc quelconque
+	*/
+	float atan(float f) {
+		this.loop(1, f, 0, 0);
+		return this.z;
+	}
+
+	/*
+	* retourne ulp(f)
+	*/
+	float ulp(float f) {
+		int   emin, emax, emid;
+		float pmin, pmax, pmid;
+
+		f = this.fabs(f);
+		if (f > 1.70141e+38) {
+			return this.fpow(2, 127-24);
+		}
+		emin = -126;
+		emax = 127;
+		pmin = this.fpow(2, emin);
+		pmax = this.fpow(2, emax);
+
+		while (emax - emin > 1) {
+			emid = (emax + emin) / 2;
+			pmid = this.fpow(2, emid);
+
+			if (f >= pmid) {
+				pmin = pmid;
+				emin = emid;
+			} else {
+				pmax = pmid;
+				emax = emid;
+			}
+		}
+		if (f == pmin) {
+			return this.fpow(2, emin - 24); // nb de bits mantisse
+		}
+
+		return this.fpow(2, emin - 23);
+	}
+
+	/*
+	* implémentation de CORDIC, n = 32
+	* (x0, y0) : vecteur initial
+	* z0 : angle initial
+	* select : choisit les conditions initiales et les comparaisons a effectuer
+	* 		   influe sur la direction choisie a chaque boucle
+	*		   0 = atan, 1 = sin&cos, 2 = asin
+	*/
+	void loop(float x0, float y0, float z0, int select) { // CORDIC loop
+		float x = x0 * K;
+		float y = y0 * K;
+		float z, xt, d = 1, e;
+		int i = 0;
+		if (select == 2) { // asin
+			z = 0;
+		} else {
+			z = z0;
+		}
+
+		while (i < 32) {
+			e = fpow(2.0, -i);
+			if (select == 0) { // atan (-sign(y))
+				if (y >= 0) {
+					d = -1;
+				} else {
+					d = 1;
+				}
+			} else if (select == 1) { // sin & cos (sign(z))
+				if (z >= 0) {
+					d = 1;
+				} else {
+					d = -1;
+				}
+			} else if (select == 2) { // asin
+				if (y < z0) {
+					d = 1;
+				} else {
+					d = -1;
+				}
+			}
+
+			xt = x - d * y * e;
+			y = y + d * x * e;
+			x = xt;
+
+			if (select == 2) {
+				z = z + d * arctable(i);
+			} else {
+				z = z - d * arctable(i);
+			}
+
+			i = i+1;
+		}
+		
+		this.x = x;
+		this.y = y;
+		this.z = z;
+	}
+
+	/*
+	* retourne la valeur absolue de i
+	*/
+	int abs(int i) {
+		if (i >= 0) {
+			return i;
+		} else {
+			return -i;
+		}
+	}
+
+	/*
+	* retourne la valeur absolue de f
+	*/
+	float fabs(float f) {
+		if (f >= 0) {
+			return f;
+		} else {
+			return -f;
+		}
+	}
+
+	/*
+	* retourne le signe de i
+	* 0 est considéré positif
+	*/
+	int sign(int i) {
+		if (i >= 0) {
+			return 1;
+		} else {
+			return -1;
+		}
+	}
+
+	/*
+	* retourne le signe de f
+	* 0 est considéré positif
+	*/
+	int fsign(float f) {
+		if (f >= 0) {
+			return 1;
+		} else {
+			return -1;
+		}
+	}
+
+	/*
+	* retourne a élevé à la puissance b
+	*/
+	float fpow(float a, int b) {
+		int n = this.abs(b);
+		float x = 1.0;
+		while (n > 0) {
+			x = x * a;
+			n = n - 1;
+		}
+		if (this.sign(b) == -1) {
+			return 1.0/x;
+		}
+		return x;
+	}
+
+	/*
+	* renvoie arctan(2^-i)
+	* pour i entre 0 et 31
+	* utilisé a chaque itération de cordic
+	*/
+	float arctable(int i) {
+		if (i==0)   {return 0.7853981633974483;}
+		if (i==1)   {return 0.4636476090008061;}
+		if (i==2)   {return 0.24497866312686414;}
+		if (i==3)   {return 0.12435499454676144;}
+		if (i==4)   {return 0.06241880999595735;}
+		if (i==5)   {return 0.031239833430268277;}
+		if (i==6)   {return 0.015623728620476831;}
+		if (i==7)   {return 0.007812341060101111;}
+		if (i==8)   {return 0.0039062301319669718;}
+		if (i==9)   {return 0.0019531225164788188;}
+		if (i==10)  {return 0.0009765621895593195;}
+		if (i==11)  {return 0.0004882812111948983;}
+		if (i==12)  {return 0.00024414062014936177;}
+		if (i==13)  {return 0.00012207031189367021;}
+		if (i==14)  {return 6.103515617420877e-05;}
+		if (i==15)  {return 3.0517578115526096e-05;}
+		if (i==16)  {return 1.5258789061315762e-05;}
+		if (i==17)  {return 7.62939453110197e-06;}
+		if (i==18)  {return 3.814697265606496e-06;}
+		if (i==19)  {return 1.907348632810187e-06;}
+		if (i==20)  {return 9.536743164059608e-07;}
+		if (i==21)  {return 4.7683715820308884e-07;}
+		if (i==22)  {return 2.3841857910155797e-07;}
+		if (i==23)  {return 1.1920928955078068e-07;}
+		if (i==24)  {return 5.960464477539055e-08;}
+		if (i==25)  {return 2.9802322387695303e-08;}
+		if (i==26)  {return 1.4901161193847655e-08;}
+		if (i==27)  {return 7.450580596923828e-09;}
+		if (i==28)  {return 3.725290298461914e-09;}
+		if (i==29)  {return 1.862645149230957e-09;}
+		if (i==30)  {return 9.313225746154785e-10;}
+		if (i==31)  {return 4.656612873077393e-10;}
+		return 0.0;
+	}
+
+	/*
+	* arrete le programme en cours
+	*/
+	void crash() asm("ERROR");
+ }

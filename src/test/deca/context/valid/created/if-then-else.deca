@@ -1,0 +1,14 @@
+//Description :
+// Test d'un if then else
+//
+// Resultats :
+// C'est oui
+
+
+{
+    if (true) {
+        print("C'est oui");
+    } else {
+        print("C'est non");
+    }
+}

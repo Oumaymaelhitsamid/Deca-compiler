@@ -1,0 +1,12 @@
+//Description
+//    Vérifier que le nom de la method n'entre pas en conflit
+//
+//Résultats :
+//   Ok
+//
+
+class A{
+ void readInt(){}
+}
+
+{}

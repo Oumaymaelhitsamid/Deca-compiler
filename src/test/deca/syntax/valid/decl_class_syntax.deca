@@ -1,0 +1,31 @@
+//Description
+//    Vérifier la déclaration d'une classe classique
+//
+//Résultats :
+//   Ok
+//
+
+class A extends B{
+  protected int a;
+  int b;
+
+  int getA(){
+  return this.a;
+  }
+
+  void setA(int a){
+  this.a = a;
+  }
+
+  void test(){
+  this.getA();
+  }
+
+  void testAsm() asm ("String
+  Multiline");
+
+}
+
+{
+A.getA();
+}

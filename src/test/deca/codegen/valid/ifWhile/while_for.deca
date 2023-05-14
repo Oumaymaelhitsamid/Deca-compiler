@@ -1,0 +1,13 @@
+//Description :
+// Creation boucle for avec while
+//
+// Resultats :
+// 250
+
+{
+int i = 0;
+while(i < 250){
+i = i+1;
+}
+print(i);
+}

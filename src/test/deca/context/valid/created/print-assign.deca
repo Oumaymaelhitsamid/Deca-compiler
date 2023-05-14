@@ -1,0 +1,11 @@
+//Description :
+// Test du print d'une assignation
+//
+// Resultats :
+// 2
+
+
+{
+    int x;
+    print(x = 2);
+}

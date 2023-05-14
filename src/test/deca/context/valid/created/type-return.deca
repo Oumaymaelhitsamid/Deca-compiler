@@ -1,0 +1,16 @@
+//Description :
+// Test d'un bon type de return
+//
+// Resultats :
+// Erreur
+
+
+class A{
+  protected boolean a;
+
+  boolean printA(int a){
+  return this.a;
+  }
+
+
+}

@@ -1,0 +1,10 @@
+//Description
+//    Vérifier le if
+//
+//Résultats :
+//    Erreur Syntaxique ligne 10
+//
+
+{
+if(a){} else({});
+}

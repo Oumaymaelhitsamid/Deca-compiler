@@ -1,0 +1,8 @@
+//
+
+//Decl attribut public
+
+class A{
+protected int a;
+int b = 3;
+}

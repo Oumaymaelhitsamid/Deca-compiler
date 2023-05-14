@@ -1,0 +1,9 @@
+// 1 == 1
+
+// Test d'un if simple
+
+{
+    if (1 == 1){
+        print("1 == 1");
+    }
+}

@@ -1,0 +1,16 @@
+//Description :
+// Test d'une déclaration de méthode avec paramètre dans une classe
+//
+// Resultats :
+// Erreur
+
+
+class Premiere {
+    int affiche = 0;
+
+    void affiche(int i, float f) {
+        print("Yo : ", i, f);
+    }
+}
+
+{}

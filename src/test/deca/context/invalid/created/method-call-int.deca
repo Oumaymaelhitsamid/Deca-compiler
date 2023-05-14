@@ -1,0 +1,11 @@
+//Description :
+// Test d'un appel de méthode sur un objet non class
+//
+// Resultats :
+// Erreur
+
+
+{
+    int a = 3;
+    a.abc();
+}

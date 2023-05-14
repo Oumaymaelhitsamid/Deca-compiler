@@ -1,0 +1,22 @@
+//Description :
+// Test d'une methode qui ne return pas forcement
+//
+// Resultats :
+// Pas de soucis
+
+
+class Premiere {
+
+  int random(int x){
+    if(x==4){
+    return 3;
+    }
+    
+  }
+
+}
+
+
+
+{
+}

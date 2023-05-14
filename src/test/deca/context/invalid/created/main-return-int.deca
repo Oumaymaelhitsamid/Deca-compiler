@@ -1,0 +1,10 @@
+//Description :
+// Test d'un return entier dans le main
+//
+// Resultats :
+// Erreur
+
+
+{
+    return 1;
+}

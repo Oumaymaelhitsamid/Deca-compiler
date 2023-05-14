@@ -1,0 +1,12 @@
+//Description :
+// Test de l'extend d'un builtin type
+//
+// Resultats :
+// Erreur
+
+
+class Premiere extends int {
+
+}
+
+{}

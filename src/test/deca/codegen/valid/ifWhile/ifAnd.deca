@@ -1,0 +1,11 @@
+// ME OUI!
+
+// Test de l'instruction and dans un if
+
+{
+    if (1 == 1 && 2 == 2){
+        print("ME OUI!");
+    } else {
+        print("Dommage");
+    }
+}

@@ -1,0 +1,11 @@
+// LA MAGIE
+
+// Test du Or sur un if
+
+{
+    if (1 == 2 || 2 == 2){
+        print("LA MAGIE");
+    } else {
+        println("oupsy");
+    }
+}

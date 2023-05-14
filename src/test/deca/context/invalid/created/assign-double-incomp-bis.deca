@@ -1,0 +1,12 @@
+//Description :
+// Assignation double incompatible
+//
+// Resultats :
+// Erreur
+
+{
+    int x;
+    boolean y;
+
+    x = y = true;
+}

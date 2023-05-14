@@ -1,0 +1,13 @@
+//Description :
+// Test d'un objet null
+//
+// Resultats :
+// 
+
+class A {
+    int a = 3;
+}
+
+{
+    A obj = null;
+}

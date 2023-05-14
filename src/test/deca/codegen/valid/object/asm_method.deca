@@ -1,0 +1,8 @@
+class A {
+    void test() asm("WNL");
+}
+
+{
+    A a = new A();
+    a.test();
+}

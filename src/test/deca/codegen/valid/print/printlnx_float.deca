@@ -1,0 +1,8 @@
+// Description :
+// printlnx sur un literal float
+// Resultat :
+// 0x
+
+{
+printlnx(4.6);
+}
